@@ -1,9 +1,4 @@
 /*
-Candidate Number: GLRK5
-
-Sources used:
-https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/concurrent/CyclicBarrier.html for some Java Doc
-
 I am aware that some of the private methods in this class do not need to be synchronized because they are only ever called from
 synchronized methods. However, adding synchronized doesn't do any harm and I feel it more explicitly states that methods
 are thread safe.
